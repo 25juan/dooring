@@ -1,6 +1,9 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
+  devServer: {
+    port: 11000,
+  },
   nodeModulesTransform: {
     type: 'none',
   },
